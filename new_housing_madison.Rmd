@@ -107,7 +107,7 @@ permits_all %>%
   hrbrthemes::scale_color_ipsum(name = NULL, labels = c("Madison metro area,\nwithout City", "City of Madison only")) +
   hrbrthemes::theme_ipsum_rc() +
   theme(legend.position = "right") +
-  labs(title = "New housing units permitted in the City of\n Madison and the surrounding metro area", subtitle = "Both the total number and the trend over time are similar between the two",
+  labs(title = "New housing units permitted in the City of\n Madison and the surrounding metro area", subtitle = "Both the total number and the trend over\ntime are similar between the two",
        caption = "Data: https://socds.huduser.gov/permits/\nVisualization: Harald Kliems\nMadison metro area encompasses Dane, Green, Iowa, and Columbia counties")
 
 
